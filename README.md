@@ -1,7 +1,7 @@
 # thebigbangtheorygame
-Rock paper scissors lizard Spock
+Rock Paper Scissors Lizard Spock
 Let's Play! Rock, Paper, Scissors, Lizard, Spock.
-Let's Play! is a site with a simple Rock, Paper, Scissors game. This game is designed for adults and children alike. It provides the rules of the game, and buttons to select your choice during play. Users will compete against the completely random selection of the computer, ensuring a fair result.
+Let's Play! is a site with a simple Rock, Paper, Scissors game. Using simple gestures this game suits everyone from ages 5 and up. It provides the rules of the game, and buttons to select your choice during play. Users will compete against the completely random selection of the computer, ensuring a fair result.
 
 Screens mockup
 
