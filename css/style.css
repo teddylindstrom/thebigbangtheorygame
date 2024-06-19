@@ -56,3 +56,8 @@
   margin-right: auto;
   line-height: 20px;
 }
+
+.result-area p {
+  margin: 7px;
+}
+
