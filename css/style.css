@@ -114,3 +114,58 @@
   margin: 0 30px;
   transition: all 0.5s;
 }
+
+.btn--red {
+  border-color: red;
+  color: red;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.btn--yellow {
+  border-color: yellow;
+  color: yellow;
+}
+
+.btn--yellow:active,
+.btn--yellow:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.btn--green {
+  border-color: green;
+  color: green;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn--blue {
+  border-color: blue;
+  color: blue;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: lightblue;
+}
+
+.btn--black {
+  border-color: brown;
+  color: brown;
+}
+
+.btn--brown:active,
+.btn--brown:hover {
+    background-color: brown;
+    color: darkgoldenrod;
+}
