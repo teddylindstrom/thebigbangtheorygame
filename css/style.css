@@ -36,6 +36,7 @@
 .rules p {
   line-height: 1rem;
 }
+
 /* Game layout*/
 .game-area {
   box-sizing: border-box;
@@ -43,4 +44,15 @@
   margin-left: auto;
   margin-right: auto;
   padding: 1%;
+}
+
+/* Result area*/
+.result-area {
+  padding: 4%;
+  box-sizing: border-box;
+  width: 75%;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 20px;
 }
