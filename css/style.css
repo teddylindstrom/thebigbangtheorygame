@@ -15,3 +15,13 @@
   box-sizing: border-box;
 }
 
+/* Headings*/
+.heading {
+  text-decoration: underline;
+  font-size: 2rem;
+  color: orangered;
+}
+.sub-heading {
+  color: orangered;
+  margin: 1px;
+}
