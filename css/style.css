@@ -169,3 +169,23 @@
     background-color: brown;
     color: darkgoldenrod;
 }
+
+/* Media Queries*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .image-hands {  
+      width: 75%;
+  }
+
+  .game-area {
+      width: 100%;
+  } 
+
+  .controls-area {
+      width: 100%;
+  }
+
+  .btn {
+      width: 27%;
+  }
+}
