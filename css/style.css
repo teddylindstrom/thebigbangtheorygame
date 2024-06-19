@@ -64,3 +64,38 @@
 #result {
   color: orangered;
 }
+
+/* Footer and score section*/
+.footer {
+  position: absolute;
+  width: 100%;
+  min-height: 80px;
+  background-color: white;
+}
+
+.scores1 {
+  float: left;
+  width: 45%;
+}
+
+#player-score {
+  color: orangered;
+}
+
+.scores2 {
+  float: right;
+  width: 45%;
+}
+
+#computer-score {
+  color: orangered;
+}
+
+/* Buttons style and hoover changes*/
+.btn {
+  width: 220px;
+  height: 60px;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
