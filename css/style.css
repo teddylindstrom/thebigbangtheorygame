@@ -8,3 +8,10 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+/*Asterisk wildcard selector to override default styles added by the browser*/
+* { padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
