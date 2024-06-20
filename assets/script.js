@@ -3,7 +3,24 @@
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
 
-    
+    for (let button of buttons) {
+        button.addEventListener("click", function() {
+            let playerChoice = this.getAttribute("data-type"); 
+                if (this.getAttribute("data-type") === "0") {
+                    playerChoice = "rock";
+                } else if (this.getAttribute("data-type") === "1") {
+                    playerChoice = "paper";
+                } else if (this.getAttribute("data-type") === "2") {
+                    playerChoice = "scissors";
+                }
+            
+            playerChoiceDisplay.innerHTML = playerChoice;
+            generateComputerChoice();
+            checkResult(computerChoice, playerChoice);
+            
+        });
+    }
+});
 
 const playerChoiceDisplay = document.getElementById("player-choice");
 const computerChoiceDisplay = document.getElementById("computer-choice");
