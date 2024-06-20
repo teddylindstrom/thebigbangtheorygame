@@ -41,3 +41,51 @@ function generateComputerChoice() {
  *  Compares computer and player choice and decides winning result.
  *  Updates winners score tally.
 */
+function checkResult(computerChoice, playerChoice) { 
+    let result = document.getElementById("result");
+    console.log(computerChoice);
+    console.log(playerChoice); 
+    if (computerChoice === 'rock' && playerChoice === 'rock') {
+        result.innerHTML = "Draw";
+    }
+    else if (computerChoice === 'rock' && playerChoice === 'paper') {
+        result.innerHTML = "Player wins";
+        incrementPlayerScore();
+    }
+    else if (computerChoice === 'rock' && playerChoice === 'scissors') {
+        result.innerHTML = "Computer wins";
+        incrementComputerScore();
+    }
+    else if (computerChoice === 'paper' && playerChoice === 'rock') {
+        result.innerHTML = "Computer wins";
+        incrementComputerScore();
+    }
+    else if (computerChoice === 'paper' && playerChoice === 'paper') {
+        result.innerHTML = "Draw";
+    }
+    else if (computerChoice === 'paper' && playerChoice === 'scissors') {
+        result.innerHTML = "Player wins";
+        incrementPlayerScore();
+    }
+    else if (computerChoice === 'scissors' && playerChoice === 'rock') {
+        result.innerHTML = "Player wins";
+        incrementPlayerScore();
+    }
+    else if (computerChoice === 'scissors' && playerChoice === 'paper') {
+        result.innerHTML = "Computer wins";
+        incrementComputerScore();
+    }
+    else if (computerChoice === 'scissors' && playerChoice === 'scissors') {
+        result.innerHTML = "Draw";
+    }
+    console.log(result);
+}
+
+/** Gets the current player score from the DOM and increments it by 1 */
+function incrementPlayerScore() {
+
+    let playerScore = parseInt(document.getElementById("player-score").innerText);
+    document.getElementById("player-score").innerText = ++playerScore;
+
+
+}
