@@ -89,3 +89,11 @@ function incrementPlayerScore() {
 
 
 }
+
+/** Gets the current computer score from the DOM and increments it by 1 */
+function incrementComputerScore() {
+
+    let computerScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++computerScore;
+
+}
