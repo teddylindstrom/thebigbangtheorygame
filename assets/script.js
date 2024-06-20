@@ -30,7 +30,12 @@ let computerChoice;
 /** 
  * Generate the computers random selection of rock, paper 
  * or scissors */ 
-
+function generateComputerChoice() {
+     
+    computerChoice = choices[Math.floor(Math.random() * 3)];
+        computerChoiceDisplay.innerHTML = computerChoice;
+            
+}
 
 /**
  *  Compares computer and player choice and decides winning result.
