@@ -66,6 +66,14 @@
   color: orangered;
 }
 
+/* Hero section */
+#hero {
+  height: 10px;
+  width: 25%;
+  background: url("../images/thebigbangtheorygame.jpg") no-repeat center center/cover;
+  position: relative;
+}
+
 /* Footer and score section*/
 .footer {
   position: absolute;
@@ -161,7 +169,7 @@
 }
 
 /* Media Queries*/
-@media (min-width: 75px) and (max-width: 100px) {
+@media (min-width: 320px) and (max-width: 480px) {
   
   .image-hands {  
       width: 75%;
@@ -172,7 +180,7 @@
   } 
 
   .controls-area {
-      width: 100%;
+      width: 50%;
   }
 
   .btn {

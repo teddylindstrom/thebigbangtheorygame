@@ -42,7 +42,8 @@ In the future I would like to add a function to end the game after either the pl
 More simple games could be added to give variety to the site eg. Tic Tac Toe, a memory game etc.
 A score table could be added so players could log their scores.
 Testing
-Validator Testing
+
+#Validator Testing
 HTML
 No errors were returned in the problem area
 html validation test
