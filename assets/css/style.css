@@ -1,17 +1,18 @@
 /* Font*/
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
 .raleway-<uniquifier> {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <100>;
+  font-weight: 100;
   font-style: normal;
 }
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
-* { padding: 0px;
-  margin: 0;
+* { font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  padding: 5px;
+  margin: 5px;
   box-sizing: border-box;
 }
 
@@ -171,7 +172,7 @@
 }
 
 /* Media Queries*/
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 75px) and (max-width: 100px) {
   
   .image-hands {  
       width: 75%;
