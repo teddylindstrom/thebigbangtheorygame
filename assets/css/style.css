@@ -160,17 +160,6 @@
     color: lightblue;
 }
 
-.btn--black {
-  border-color: brown;
-  color: brown;
-}
-
-.btn--brown:active,
-.btn--brown:hover {
-    background-color: brown;
-    color: darkgoldenrod;
-}
-
 /* Media Queries*/
 @media (min-width: 75px) and (max-width: 100px) {
   

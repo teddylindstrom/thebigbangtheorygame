@@ -22,10 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-const playerChoiceDisplay = document.getElementById("player-choice");
-const computerChoiceDisplay = document.getElementById("computer-choice");
-const choices = ["rock", "paper", "scissors"];
-let computerChoice;
 
 /** 
  * Generate the computers random selection of rock, paper 
