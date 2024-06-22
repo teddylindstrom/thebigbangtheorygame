@@ -7,9 +7,9 @@ Screens mockup
 
 Features
 Existing Features
-The Let's Play! Rock, Paper, Scissors Heading and Sub-Heading
+Do you want to play a game?! Rock, Paper, Scissors, Lizard, Spock Heading and Sub-Heading
 
-Featured at the top of the page, the Let's Play! heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the site, and directly below it the name of the game they are about to play.
+Featured at the top of the page, the Do you want to play a game?! heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the site, and directly below it the name of the game they are about to play.
 Heading and sub-heading
 
 Rules Area
@@ -20,7 +20,7 @@ Rules area
 
 The Game Area
 
-This section will allow the user to play the rock, paper, scissors game.
+This section will allow the user to play the rock, paper, scissors, lizard, spock game.
 The user will easily see the three buttons and choose one to select.
 Games area
 
@@ -44,15 +44,15 @@ A score table could be added so players could log their scores.
 Testing
 Validator Testing
 HTML
-No errors were returned when passing through the official W3C validator
+No errors were returned in the problem area
 html validation test
 
 CSS
-No errors were found when passing through the official (Jigsaw) validator
+No errors were found in the problem area
 css validation test
 
 JavaScript
-No errors were found when passing through the official Jshint validator
+No errors were found in the problem area
 The following metrics were returned:
 There are 7 functions in this file.
 Function with the largest signature takes 2 arguments, while the median is 0.
@@ -64,13 +64,12 @@ I used Chrome developer tools throughout the project for testing and solving pro
 Compatibility testing
 Site was tested across multiple virtual mobile devices. I checked all supported devices in Chrome developer tools.
 Site was tested on several browsers including Chrome, Microsoft Edge, Safari and Firefox.
-I tested on hardware devices such as: HP Pavilion R3 with Windows OS's, Samsung Galaxy A32 smartphone with Android 12, IPhone Xs with iOS 15.5
-Accessibility Testing
+I tested on hardware devices such as: Samsung galaxy a32, macbook pro, HP windows laptop and desktop.
 I tested the colors and fonts chosen on lighthouse in chrome devtools to make sure they were easy to read.
-lighthouse test
 
 Bugs
-I was unable to get the checkResult function to return the correct result. It would return every result as a computer win. I realised I needed to add computerChoice, playerChoice to the parentheses when calling on the function and this fixed the problem.
+Can't seem to get the choice done.
+
 Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 Open the repository on GitHub
@@ -79,11 +78,11 @@ Select the Pages tab on left-hand side
 From the source section drop-down menu, select the Main Branch, and save
 Once the main branch has been saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 It may be necessary to refresh the page to view the live link
-The live link can be found here - https://michellecorrigan.github.io/lets-play/
+The live link can be found here - https://github.com/teddylindstrom/thebigbangtheorygame
 
 To run localy:
 
-Log in to GitHub and click on repository to download lets-play
+Log in to GitHub and click on repository to download 
 Select Code and click Download the ZIP file.
 After download you can extract the file and use it in your local environment
 Alternatively you can Clone or Fork this repository lets-play into your github account.
@@ -98,45 +97,18 @@ As a style language.
 Javascript
 As a programming language.
 
-Font Awesome
-As an icon library for the game buttons.
-
-Google fonts
-As a font resource.
-
-GitHub
-As a software hosting platform to keep project in a remote location.
-
-Git
-As a version-control system tracking.
-
-Gitpod
-As a development hosting platform.
-
-Cloudinary
-As an image editor.
-
-Wireframe
-I drew up a wireframe on paper to help with planning my project.
-wireframe
-
-Surface
-Colors
-Main colours used in project:
-
 background color: rgb(233, 248, 233)
 font colors: rgb(18, 4, 110), and orangered
 footer color: white
-button colors: red, darkred, yellow, darkorange, green, darkgreen, and white.
+button colors: red, darkred, yellow, darkorange, green, darkgreen, blue, darkblue, brown, darkorange and white.
 Fonts
-As a main font I used Merriweather, and as a backup font serif
+As a main font I used Raleway, and as a backup font serif
 Images
-I used an image from TimeforKids.com and it is credited in credits section.
 Credits
 -To complete this project I used Code Institute student template: gitpod full template
 
 Content
-The font-family Merriweather was taken from Google Fonts Google Fonts
+The font-family Raleway was taken from Google Fonts Google Fonts
 The icons were taken from Font Awesome
 Media
 The image in the rules area was taken from this link

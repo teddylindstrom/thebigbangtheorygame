@@ -5,7 +5,7 @@
 .raleway-<uniquifier> {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <100>;
   font-style: normal;
 }
 
@@ -18,17 +18,17 @@
 /* Headings*/
 .heading {
   text-decoration: underline;
-  font-size: 2rem;
-  color: orangered;
+  font-size: 3rem;
+  color: darkblue;
 }
 .sub-heading {
-  color: orangered;
+  color: darkblue;
   margin: 1px;
 }
 
 /* Rules section*/
 .rules {
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
